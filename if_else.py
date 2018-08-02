@@ -1,15 +1,15 @@
-﻿age = 12;
+﻿age = 12
 if age >= 18:
-	print('your age is',age);
-	print('adult');
+	print('your age is',age)
+	print('adult')
 else:
-	print('your age is',age);
-	print('teenager');
+	print('your age is',age)
+	print('teenager')
 	
 if age >= 18:
 	print('adult')
 elif age >= 6:   #elif  is  else if  abbreviation
-	print('teenager');
+	print('teenager')
 else:
 	print('kid')
 	
@@ -28,7 +28,7 @@ w = 80.5
 BMI = float(w/(h*h))
 print('BMI=',BMI)
 if BMI <= 18.5:
-	print('under weight');
+	print('under weight')
 elif BMI<=25:
 	print('normal')
 elif BMI<=28:
