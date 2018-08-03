@@ -71,3 +71,13 @@ def enroll(name,sex,age='7',city='BeiJing'):
 
 enroll('zhangsan','M','6')
 enroll('lisi','F',city='shanghai')
+
+def per(name,age,*,city,job):
+	print(name,age,city,job)
+
+per('Jack',24,city='BeiJing',job='Engineer')
+
+def pp(a,b,c=0,*arg,**kw):
+	print('a=',a,'b=',b,'c=',c,'arg=',arg,'kw=',kw)
+
+pp('a','b','c','d','e',vv='qq')
